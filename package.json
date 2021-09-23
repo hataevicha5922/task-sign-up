@@ -1,0 +1,39 @@
+{
+  "name": "jsi",
+  "version": "1.0.0",
+  "description": "task sign-up",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hataevicha5922/task-sign-up.git"
+  },
+  "keywords": [
+    "javascript",
+    "sign-up"
+  ],
+  "author": "Aliaksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hataevicha5922/task-sign-up/issues"
+  },
+  "homepage": "https://github.com/hataevicha5922/task-sign-up#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "firebase": "^9.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "uuid": "^8.3.2"
+  }
+}
